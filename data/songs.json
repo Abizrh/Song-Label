@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Pusing",
+    "bandName": "Callback Band",
+    "duration": 190,
+    "genre": "Rock",
+    "createdDate" : "2001-01-01",
+    "lyric": "Lorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 20,
+    "LabelId" : 1
+  },
+  {
+    "id": 2,
+    "title": "Database",
+    "bandName": "Postgres",
+    "duration": 200,
+    "genre": "Pop",
+    "createdDate" : "2000-02-24",
+    "lyric": "Lets gooooooo!!!\nSave your name\nIn the database\n\nSave your address\nIn the database\nSave your number\n\nIn the database\nSave your data\nIn the database\n\nDatabase database wow wow\nDatabase database wow wow\nAnything database wow wow\n\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 10,
+    "LabelId" : 5
+  },
+  {
+    "id": 3,
+    "title": "Terminal",
+    "bandName": "Express",
+    "duration": 200,
+    "genre": "Pop",
+    "createdDate" : "1999-12-20",
+    "lyric": "Lets movinnnng!!!\nEverytime Everywhere\n\nterminalllll\nYou see error in the terminal yeaahhhhhhh\n\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 120,
+    "LabelId" : 5
+  },
+  {
+    "id": 4,
+    "title": "Kebab",
+    "bandName": "Git Reset",
+    "duration": 180,
+    "genre": "Pop",
+    "createdDate" : "1999-12-20",
+    "lyric": "YEAH YEAH YEAH\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 110,
+    "LabelId" : 4
+  },
+  {
+    "id": 5,
+    "title": "Foo Bar",
+    "bandName": "Variable Name",
+    "duration": 180,
+    "genre": "Rock",
+    "createdDate" : "1999-12-20",
+    "lyric": "YEAH YEAH YEAH\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 0,
+    "LabelId" : 2
+  },
+  {
+    "id": 6,
+    "title": "Aa Bb Cc Dd",
+    "bandName": "Upper Lower Case",
+    "duration": 180,
+    "genre": "Metal",
+    "createdDate" : "2000-12-01",
+    "lyric": "YEAH YEAH YEAH\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 0,
+    "LabelId" : 2
+  },
+  {
+    "id": 7,
+    "title": "Entity Table",
+    "bandName": "Attribute Column",
+    "duration": 180,
+    "genre": "Country",
+    "createdDate" : "2005-06-14",
+    "lyric": "YEAH YEAH YEAH\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 0,
+    "LabelId" : 2
+  },
+  {
+    "id": 8,
+    "title": "I know keyname and property",
+    "bandName": "Object Literal",
+    "duration": 180,
+    "genre": "Country",
+    "createdDate" : "2012-08-08",
+    "lyric": "YEAH YEAH YEAH\nLorem ipsum dolor sit amet,\n consectetur adipiscing elit.\n Mauris facilisis dictum mi non condimentum.\n\n Sed nec arcu ut ipsum sagittis dictum.\n Curabitur tristique nunc et ullamcorper convallis.\n Cras commodo consectetur eros vitae accumsan.\n Donec eu ligula vitae urna ullamcorper interdum.\n\n Phasellus condimentum,\n felis vel lacinia tristique,\n nisi lacus pharetra ligula,\n\n eu accumsan dolor tortor non lectus. \nNullam lorem ante,\n euismod quis pretium ac,\n vestibulum laoreet nunc.\n\n",
+    "imageUrl": "http://placekitten.com/200/300",
+    "totalVote": 0,
+    "LabelId" : 2
+  }
+]

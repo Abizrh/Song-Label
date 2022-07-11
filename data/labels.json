@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Syno Music Entertainment",
+    "since": "1968-10-04",
+    "city": "Jakarta"
+  },
+  {
+    "id": 2,
+    "name": "Nagawaras",
+    "since": "1947-07-17",
+    "city": "Bali"
+  },
+  {
+    "id": 3,
+    "name": "Wangi Music",
+    "since": "1988-06-10",
+    "city": "Bandung"
+  },
+  {
+    "id": 4,
+    "name": "Aquarium Studio",
+    "since": "1976-12-11",
+    "city": "Jakarta"
+  },
+  {
+    "id": 5,
+    "name": "Sare Music",
+    "since": "2001-12-18",
+    "city": "Jakarta"
+  }
+]
