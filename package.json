@@ -1,0 +1,30 @@
+{
+  "name": "song-label",
+  "version": "1.0.0",
+  "description": "Merupakan challenge yang dinilai 💯\r ```txt\r Terbagi 3 Deadline :\r - Part 1 W2D6 18.00 WIB\r - Part 2 W3D2 09.00 WIB\r - Final Deadline W3D2 13.00 WIB\r ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmt-26-zurich-fox/song-label.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmt-26-zurich-fox/song-label/issues"
+  },
+  "homepage": "https://github.com/rmt-26-zurich-fox/song-label#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^3.4.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

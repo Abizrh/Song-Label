@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Label</title>
+    <style>
+        #tes {
+            border: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include(`./partials/navbar`) %> 
+    <h1>Table </h1>
+    <button>
+        <a href="/labels/detail">Show Detail Duration</a>
+    </button>
+    
+    <table border="1">
+        <thead>
+            <th>name</th>
+            <th>since</th>
+            <th>city</th>
+        </thead>
+        <tbody >
+           
+            <% data.forEach(el => { %>
+
+                <tr>
+                    <td><%= el.name %> </td>
+                    <td><%= el.toDate %> </td>
+                    <td><%=el.city %> </td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+
+</body>
+</html>

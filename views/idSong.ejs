@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID SONG</title>
+</head>
+<body>
+    <%- include(`./partials/navbar`) %> 
+    <h1>Database Song</h1>
+    <p>
+        <% data.forEach(el => { %>
+            <img src="<%= el.imageUrl %> ">
+         <p> Band Name : <%= el.bandName %> </p>
+         <br>
+         <p> Duration : <%= el.duration %> </p>
+         <br>
+         <p> Genre : <%= el.genre%> </p>
+         <br>
+         <p> Label Name : <%= el.companyName %> </p>
+         <br>
+         <p> Genre : <%= el.genre %> </p>
+         <br>
+         <p> Tanggal dirilis : <%= el.toDateSong %> </p>
+         <br>
+         <p> Total Vote : <%= el.totalVote %> </p>
+          <a href="/songs/<%= el.id %>/vote ">
+            <button>Vote</button>
+          </a>
+         <p>Lyric : <%= el.lyric%></p>
+        <% }) %>
+    </p>
+</body>
+</html>

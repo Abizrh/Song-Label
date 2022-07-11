@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+            height: 750px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container div{
+            /* border: 1px solid; */
+            margin: 15px;
+
+        }
+        label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        input{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!-- <%- include(`./partials/navbar`) %>  -->
+
+    <%- include('./partials/show-error', {errors}) %> 
+        
+    <div class="container">
+
+        <form action="/songs/add" method="post">
+
+            <label for="title">Title Song</label>
+            
+                <input type="text" name="title" >
+            
+            <label for="bandName">Band Name</label>
+            
+                <input type="text" name="bandName">
+            
+            <label for="duration">Duration</label>
+            
+                <input type="number" name="duration" min="1" max="4000">
+            
+            <label for="genre">Genre</label>
+            
+                <select name="genre">
+                    <option selected disabled>-- select --</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Dangdut">Dangdut</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Country">Country</option>
+                    <option value="Other">Other</option>
+                </select>
+            
+            <label for="imageUrl">Image Url</label>
+            
+                <input type="text" name="imageUrl" placeholder="imageUrl">
+                
+            <label for="lyric">Lyric</label>
+            
+                <textarea name="lyric" id="" cols="30" rows="10">Leave a lyric here...</textarea>
+            
+            
+            <label for="LabelId">Label</label>
+            
+                <select name="LabelId">
+                    <option selected disabled>-- select --</option>
+                    <% data.forEach(el => { %>
+                        <option value="<%= el.id %>"> <%=el.name%> </option>
+                    <% }) %>
+                </select>
+            
+            <label for="createdDate">Create Date</label>
+            
+                <input type="date" name="createdDate">
+
+                <button>Add</button>
+            
+        </form>
+    </div>
+</body>
+</html>

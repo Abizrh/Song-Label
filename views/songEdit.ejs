@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Song</title>
+    <style>
+        .container {
+
+            height: 750px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container div{
+            /* border: 1px solid; */
+            margin: 15px;
+
+        }
+        label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        input{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <%- include(`./partials/navbar`) %> 
+
+    <% songDetail.forEach(el => { %>
+        <%- include('./partials/show-error', {errors}) %> 
+        <div class="container">
+            <form action="/songs/<%=el.id%>/edit" method="post">
+                <label for="title">Title Song</label>
+                
+                    <input type="text" name="title" value="<%= el.title %>">
+                
+                <label for="bandName">Band Name</label>
+                
+                    <input type="text" name="bandName" value="<%= el.bandName%>">
+                
+                <label for="duration">Duration</label>
+                
+                    <input type="number" name="duration" min="1" max="10000" value="<%= el.duration %>">
+                
+                <label for="genre">Genre</label>
+                
+                    <select name="genre">
+                        <option selected disabled>-- select --</option>
+                        <option value="Rock" <%= el.genre === "Rock" ? "selected" : "" %>>Rock</option>
+                        <option value="Pop" <%= el.genre === "Pop" ? "selected" : "" %>>Pop</option>
+                        <option value="Dangdut" <%= el.genre === "Dangdut" ? "selected" : "" %>>Dangdut</option>
+                        <option value="Jazz" <%= el.genre === "Jazz" ? "selected" : "" %>>Jazz</option>
+                        <option value="Other" <%= el.genre !== "Rock" && el.genre !== "Pop" && el.genre !== "Dangdut" && el.genre !== "Dangdut" ? "selected" : "" %>>Other</option>
+                    </select>
+                
+                <label for="imageUrl">Image Url</label>
+                
+                    <input type="text" name="imageUrl" placeholder="imageUrl" value="<%= el.imageUrl %>">
+                
+
+                <label for="lyric">Lyric</label>
+                
+                    <textarea name="lyric" id="" cols="30" rows="10">Leave a lyric here...<%= el.lyric %></textarea>
+                
+                <label for="LabelId">Label</label>
+                
+                    <select name="LabelId">
+                        <option selected disabled>-- select --</option>
+                        <% label.forEach(item => { %>
+                            <option value="<%= +item.id %>" <%= item.id === el.LabelId ? "selected" : "" %>><%= item.name %></option>
+                        <% }) %>
+                    </select>
+                
+                <label for="createdDate">Create Date</label>
+                
+                    <input type="date" name="createdDate" value="<%= el.formatDate %>">
+                
+                    <button>Add</button>
+                
+            </form>
+        </div>
+    <% }) %>
+</body>
+</html>
